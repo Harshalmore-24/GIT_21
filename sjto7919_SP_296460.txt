@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>46</MsgId>
+			<CreDtTm>2021-06-17T17:23:38</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>14500.69</CtrlSum>
+			<InitgPty>
+				<Nm>Zogenix International Limited</Nm>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>46-TEST SEPA</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<BtchBookg>true</BtchBookg>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>14500.69</CtrlSum>
+			<PmtTpInf>
+				<InstrPrty>NORM</InstrPrty>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>SEPA</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>SUPP</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<ReqdExctnDt>2021-06-18</ReqdExctnDt>
+			<Dbtr>
+				<Nm>Zogenix International Limited</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>20143680</Id>
+					</Othr>
+				</Id>
+				<Ccy>EUR</Ccy>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>SVBKGB2LXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<ChrgBr>SLEV</ChrgBr>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>46-TEST SEPA</InstrId>
+					<EndToEndId>46-3</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="EUR">14500.69</InstdAmt>
+				</Amt>
+				<CdtrAgt>
+					<FinInstnId>
+						<BIC>BLOPIT22</BIC>
+						<PstlAdr>
+							<Ctry>IT</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>FAKE SEPA VENDOR</Nm>
+					<PstlAdr>
+						<Ctry>IT</Ctry>
+						<AdrLine>611 S. Congress Avenue</AdrLine>
+					</PstlAdr>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<IBAN>IT60X0542811101000000123456</IBAN>
+					</Id>
+				</CdtrAcct>
+				<Purp>
+					<Cd>SUPP</Cd>
+				</Purp>
+				<RmtInf>
+					<Ustrd>TEST SEPA</Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
